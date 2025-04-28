@@ -43,11 +43,13 @@ button:hover {
 }
 
 #lyrics {
-  max-width: 800px;
+  max-width: 600px; 
+  max-height: 400px; 
+  overflow-y: auto; /* dikey kaydırma ekledim */
   margin: 40px auto;
   text-align: left;
   background-color: rgba(150, 31, 219, 0.85);
-  padding: 30px;
+  padding: 20px; 
   border-radius: 16px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   white-space: pre-line;
@@ -55,7 +57,8 @@ button:hover {
   font-family: 'Georgia', 'Times New Roman', serif;
   font-size: 1rem;
   color: #ffffff;
-  line-height: 1.1;
+  line-height: 1.5;
   letter-spacing: 0.5px;
 }
+
   
